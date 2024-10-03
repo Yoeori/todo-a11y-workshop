@@ -1,6 +1,3 @@
-import checkedSvg from "../../assets/checked.svg";
-import uncheckedSvg from "../../assets/unchecked.svg";
-
 interface CheckboxProps {
   checked: boolean;
 }
@@ -8,7 +5,7 @@ interface CheckboxProps {
 export default function Checkbox({ checked }: CheckboxProps) {
   return (
     <div style={{
-      backgroundImage: `url(${checked ? checkedSvg : uncheckedSvg})`,
+      backgroundImage: `url(${checked ? "./checked.svg" : "./unchecked.svg"})`,
       backgroundSize: "contain",
       width: 36,
       height: 36,
