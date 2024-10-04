@@ -51,3 +51,14 @@ button {
   margin: 0 auto;
   padding: 2rem;
 }
+
+@media screen and (max-width: 750px) {
+  body {
+    place-items: flex-start;
+  }
+
+  #root {
+    width: 100%;
+    padding: 1rem;
+  }
+}

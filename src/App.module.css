@@ -12,3 +12,10 @@
   border: 3px #9775fa solid;
   padding: 20px 0;
 }
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
